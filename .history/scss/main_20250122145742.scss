@@ -1,0 +1,28 @@
+@import url(/node_modules/bootstrap-icons/font/bootstrap-icons.css);
+@import 'custom';
+
+html{
+    position:relative;
+    min-height: 100%;
+}
+
+main{
+    margin-bottom: 250px;
+}
+footer.footer{
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+p{
+    font-family: $font-family-serif;
+    font-size: 18px;
+}
+
+.hero-scene{
+    background-image: url(../images/FondHeroScene.jpg);
+    background-size: cover;
+    filter: brightness(0.3);
+}
