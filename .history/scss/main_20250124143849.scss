@@ -56,8 +56,7 @@ p{
 .image-card{
     position:relative;
     &:hover{
-        .titre-image,
-        .action-image-buttons{
+        .titre-image{
             opacity: 1;
         }
         img{
@@ -86,7 +85,6 @@ p{
         padding: 5px;
         display: flex;
         justify-content: space-between;
-
         opacity: 0;
         transition:all 0.3s;
     }
