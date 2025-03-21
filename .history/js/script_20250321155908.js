@@ -56,6 +56,13 @@ function isConnected(){
         }
 }
 
+if(isConnected()){
+    alert("Je suis connecté");
+}
+else{
+    alert ("Je ne suis pas connecté");
+}
+
 function showAndHideElementsForRoles(){
     const userConnected = isConnected();
     const role = getRole();
