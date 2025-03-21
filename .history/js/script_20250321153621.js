@@ -1,5 +1,5 @@
 const tokenCookieName = "accesstoken";
-const signoutBtn = document.getElementById("signout-btn");
+const signoutBtn = document.getElementById("signou-btn");
 
 signoutBtn.addEventListener("click", signout);
 
