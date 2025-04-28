@@ -12,7 +12,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ssh-quaiantiquefilrouge.alwaysdata.net
-        username: quaiantiquefilrouge
+        username: quaiantiquefilrouges
         password: ${{ secrets.FTP_PASSWORD }}
         protocol: ftps
         port: 22
