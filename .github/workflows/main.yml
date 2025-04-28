@@ -14,5 +14,5 @@ jobs:
         server: ssh-quaiantiquefilrouge.alwaysdata.net
         username: quaiantiquefilrouge
         password: ${{ secrets.FTP_PASSWORD }}
-        protocol: ftps-legacy
+        protocol: ftps
         port: 22
