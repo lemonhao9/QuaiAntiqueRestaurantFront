@@ -17,3 +17,8 @@ jobs:
         protocol: ftps
         port: 22
         server-dir: /home/quaiantiquefilrouge/www/
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          ./history
