@@ -14,7 +14,7 @@ jobs:
         server: ssh-quaiantiquefilrouge.alwaysdata.net
         username: quaiantiquefilrouge
         password: ${{ secrets.FTP_PASSWORD }}
-        protocol: sftp
+        protocol: ftps
         port: 22
         exclude: |
           **/.git*
@@ -22,4 +22,4 @@ jobs:
           **/node_modules/bootstrap/scss/**
           **/node_modules/bootstrap/js/**
           **/node_modules/bootstrap-icons/icons/**  
-        server-dir: /www/
+        server-dir: www/
