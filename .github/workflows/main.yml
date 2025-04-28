@@ -11,11 +11,11 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp-quaiantiquefilrouge.alwaysdata.net
+        server: ssh-quaiantiquefilrouge.alwaysdata.net
         username: quaiantiquefilrouge
         password: ${{ secrets.FTP_PASSWORD }}
-        protocol: ftp
-        port: 21
+        protocol: ftps
+        port: 22
         exclude: |
           **/.git*
           **/.git*/**
