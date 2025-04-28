@@ -14,8 +14,8 @@ jobs:
         server: ftp-quaiantiquefilrouge.alwaysdata.net
         username: quaiantiquefilrouge
         password: ${{ secrets.ftp_password }}
-        protocol: ftps
-        port: 22
+        protocol: ftp
+        port: 21
         exclude: |
           **/.git*
           **/.git*/**
